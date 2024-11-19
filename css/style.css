@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/bookshelf.jpg);
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 30px 10px;
+    background-color: #fdfcdcc5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: #6a040f;
+    margin-bottom: 15px;
+}
+
+h1+p {
+    color: #370617;
+    font-size: 18px;
+    padding: 25px 0;
+}
+
+button {
+    background-color: #6f1d1b;
+    color: #ffffff;
+    border: 2px solid;
+    border-color: #370617 #fefae0 #fefae0 #370617;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 25px 40px;
+    margin: 15px 0 20px;
+}
+
+button:active {
+    border-color: #fefae0 #370617 #370617 #fefae0;
+}
+
+.quote-box {
+    min-height: 150px;
+    padding-top: 15px;
+
+}
+
+#quote,
+#author {
+    font-family: "Fondamento", cursive, sans-serif;
+}
+
+#quote {
+    font-size: 20px;
+    padding: 15px 0;
+    color: #1b4332;
+}
+
+#author {
+    font-size: 17px;
+    font-weight: bold;
+}
